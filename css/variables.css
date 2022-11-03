@@ -1,0 +1,17 @@
+:root {
+  /* font family */
+  --main-family: "Oswald", sans-serif;
+  --text-family: "Playfair Display", sans-serif;
+  /* font sizes */
+  --header-size: 40px;
+  --text-size: 18px;
+  /* colors */
+  --secondary-color: #a39f9f;
+  --first-color: rgb(208, 156, 72);
+  --secondary-color: #a39f9f;
+}
+@media (maxmax-width: 1400px) {
+  :root {
+    --text-size: 25px;
+  }
+}

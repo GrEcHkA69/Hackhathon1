@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Playfair+Display&display=swap");
+body {
+  background-image: url(./images/wallpaperflare.com_wallpaper.jpg);
+  background-size: 100%;
+  width: auto;
+}
+.mt-50 {
+  margin-top: 50px;
+}
+.mt-100 {
+  margin-top: 100px;
+}
+
+.navbar-brand {
+  font-family: var("Oswald", sans-serif);
+  font-size: var(--header-size);
+}
+
+p {
+  font-family: var(--text-family);
+}
+
+.wrapper {
+  margin: 10% 60px 0 60px;
+}
+
+.wrapper__left {
+  max-width: 550px;
+}
+.wrapper__left h1 {
+  font-size: var(--header-size);
+  font-family: var(--main-family);
+  color: var(--first-color);
+}
+.wrapper__left p {
+  font-size: var(--text-size);
+  color: var(--secondary-color);
+  font-family: var(--text-family);
+  line-height: 39px;
+  letter-spacing: -0.66px;
+  margin-top: 24px;
+}
+.wrapper__right {
+  position: relative;
+  width: 100%;
+}
+.wrapper__right:hover {
+  animation: none;
+}
+
+.wrapper__right img:first-child {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 560px;
+  height: 460px;
+  border-radius: 50%;
+  margin-bottom: -160px;
+  border: 2px solid var(--secondary-color);
+}
+.carousel h2 {
+  font-size: var(--header-size);
+  font-family: var(--main-family);
+  color: var(--first-color);
+  margin-bottom: 60px;
+  text-align: center;
+}
+#carouselExampleIndicators {
+  margin-left: 25%;
+  margin-top: 15%;
+}
+.carousel-inner {
+  border-radius: 30px;
+  border: 1px solid var(--secondary-color);
+}
+.smart {
+  font-size: var(--header-size);
+  font-family: var(--main-family);
+  color: var(--first-color);
+  margin-bottom: 60px;
+  text-align: center;
+  margin-top: 150px;
+}
+.quotes {
+  max-width: 900px;
+  margin-left: 30%;
+
+  margin: auto;
+}
+.card {
+  background: linear-gradient(-45deg, #562516, #661936, #134557, #122f79);
+  background-size: 400% 400%;
+  animation: animate_gradient 5s ease infinite;
+}
+.card:hover {
+  animation: none;
+}
+.skils {
+  max-width: 1230px;
+  margin: auto;
+}
+.skils h2 {
+  font-size: var(--header-size);
+  font-family: var(--main-family);
+  color: var(--first-color);
+  margin-bottom: 60px;
+  margin-top: 100px;
+}
+.diogram {
+  max-width: 100%;
+  margin: 40px 70px;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  background-color: grey;
+  background: linear-gradient(-45deg, #562516, #661936, #134557, #122f79);
+  background-size: 400% 400%;
+  animation: animate_gradient 5s ease infinite;
+}
+.diogram:hover {
+  animation: none;
+}
+.diogram p {
+  font-size: var(--text-size);
+  font-family: var(--text-family);
+  color: var(--first-color);
+}
+.container2 {
+  max-width: 100%;
+  background-color: rgb(90, 72, 95);
+  border-radius: 10px;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: rgb(173, 122, 122);
+  border-radius: 10px;
+}
+
+.html {
+  width: 100%px;
+  background-color: #113326;
+}
+.css {
+  width: 80%;
+  background-color: #0c2438;
+}
+.js {
+  width: 100%;
+  background-color: #4d1b17;
+}
+.php {
+  width: 100%;
+  background-color: #684949;
+}
+.footer {
+  margin-right: 40px;
+
+  border: gray;
+}
+.links {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  align-items: center;
+}
+.links li {
+  font-size: var(--text-size);
+  font-family: var(--text-family);
+  color: var(--secondary-color);
+  margin: 5px;
+}
+@media (max-width: 1400px) {
+  .wrapper {
+    margin-left: 25%;
+  }
+
+  .wrapper-left p {
+    margin-left: 30%;
+  }
+  .wrapper__right img:first-child {
+    width: 100%;
+    position: initial;
+    width: 400px;
+    height: 400px;
+    margin-right: 22%;
+  }
+}
+@media (max-width: 1200px) {
+  .skils {
+    max-width: 800px;
+  }
+  .card {
+    margin-top: 20px;
+  }
+}
+@keyframes animate_gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@media (max-width: 992px) {
+  #carouselExampleIndicators {
+    margin-top: 30%;
+    margin-left: 25%;
+  }
+}
